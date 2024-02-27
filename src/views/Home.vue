@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <main class="main">
     <v-row>
@@ -161,6 +162,7 @@ const add = async () => {
     dialog.value = false;
   } catch (error) {
     console.error("Error adding note:", error);
+    dialog.value = false;
   }
 };
 </script>
