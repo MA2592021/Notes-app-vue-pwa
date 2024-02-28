@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 
 <template>
-  <v-app>
+  <v-app style="background-color: #333">
     <default-bar />
 
     <default-view />
