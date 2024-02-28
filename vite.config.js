@@ -25,9 +25,10 @@ export default defineConfig({
         globPatterns: ["**/*.{js,css,html,ico,png,svg,font/woff2,woff}"],
       },
       manifest: {
-        name: "test",
-        short_name: "best",
-        description: "hi bye",
+        name: "notes",
+        short_name: "notes",
+        description:
+          "notes PWA working with firebase and sw to work online and offline ",
         theme_color: "#333",
         screenshots: [
           {
