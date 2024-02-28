@@ -1,4 +1,3 @@
-# base
 # Vue Vuetify PWA with Firestore Integration
 
 This project is a Vue.js Progressive Web App (PWA) with Vuetify for the UI and Firestore for data storage. The app supports offline functionality, including offline access to the layout cached by the service worker and Firestore data sync when online.
